@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>snow</title>
+    <style type="text/css">
+    header.xmas {
+        position: relative;
+        height: 400px;
+        -webkit-transform: translateZ(0);
+        -moz-transform: translateZ(0);
+        -o-transform: translateZ(0);
+        -ms-transform: translateZ(0);
+        transform: translateZ(0);
+        background: -webkit-linear-gradient(top, #7dbacc, #fafcfd);
+        background: -moz-linear-gradient(top, #7dbacc, #fafcfd);
+        background: -o-linear-gradient(top, #7dbacc, #fafcfd);
+        background: -ms-linear-gradient(top, #7dbacc, #fafcfd);
+        background: linear-gradient(to bottom, #7dbacc, #fafcfd);
+    }
+    .xmas::before {
+        content: " ";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: -50%;
+        width: 200%;
+        height: 100%;
+        z-index: 1;
+        -webkit-background-size: 40rem 40rem;
+        -moz-background-size: 40rem 40rem;
+        background-size: 40rem 40rem;
+        background-image: url("https://gw.alicdn.com/tfs/TB16Dy4jx6I8KJjy0FgXXXXzVXa-400-400.png");
+        -webkit-animation: snow 28s linear infinite;
+        -moz-animation: snow 28s linear infinite;
+        -o-animation: snow 28s linear infinite;
+        -ms-animation: snow 28s linear infinite;
+        animation: snow 28s linear infinite;
+        opacity: 1;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+        filter: alpha(opacity=0);
+        -webkit-transition: opacity 10s;
+        -moz-transition: opacity 10s;
+        -o-transition: opacity 10s;
+        -ms-transition: opacity 10s;
+        transition: opacity 10s
+    }
+    .xmax::after {
+        content: " ";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: -50%;
+        width: 200%;
+        height: 100%;
+        z-index: 10;
+        -webkit-background-size: 40rem 40rem;
+        -moz-background-size: 40rem 40rem;
+        background-size: 40rem 40rem;
+        background-image: url("https://gw.alicdn.com/tfs/TB1jNigjsrI8KJjy0FhXXbfnpXa-400-400.png");
+        -webkit-animation: snow 18s linear infinite;
+        -moz-animation: snow 18s linear infinite;
+        -o-animation: snow 18s linear infinite;
+        -ms-animation: snow 18s linear infinite;
+        animation: snow 18s linear infinite;
+        opacity: 1;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+        filter: alpha(opacity=0);
+        -webkit-transition: opacity 5s;
+        -moz-transition: opacity 5s;
+        -o-transition: opacity 5s;
+        -ms-transition: opacity 5s;
+        transition: opacity 5s
+    }
+
+    @-moz-keyframes snow {
+        0% {
+            background-position-x: 0;
+            background-position-y: 0
+        }
+
+        50% {
+            background-position-y: 40rem
+        }
+
+        100% {
+            background-position-x: 40rem;
+            background-position-y: 80rem
+        }
+    }
+
+    @-webkit-keyframes snow {
+        0% {
+            background-position-x: 0;
+            background-position-y: 0
+        }
+
+        50% {
+            background-position-y: 40rem
+        }
+
+        100% {
+            background-position-x: 40rem;
+            background-position-y: 80rem
+        }
+    }
+
+    @-o-keyframes snow {
+        0% {
+            background-position-x: 0;
+            background-position-y: 0
+        }
+
+        50% {
+            background-position-y: 40rem
+        }
+
+        100% {
+            background-position-x: 40rem;
+            background-position-y: 80rem
+        }
+    }
+
+    @keyframes snow {
+        0% {
+            background-position-x: 0;
+            background-position-y: 0
+        }
+
+        50% {
+            background-position-y: 40rem
+        }
+
+        100% {
+            background-position-x: 40rem;
+            background-position-y: 80rem
+        }
+    }
+
+
+    </style>
+</head>
+<body>
+
+    <header class="xmas snow">
+        
+    </header>
+
+</body>
+</html>
